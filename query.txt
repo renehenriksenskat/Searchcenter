@@ -1,0 +1,35 @@
+hr-partner
+ {searchTerms} 
+ -path:"https://skat.sharepoint.com/sites/motorst" OR 
+  -path:"https://skat.sharepoint.com/sites/vurdst" OR
+   -path:"https://skat.sharepoint.com/sites/toldst" OR
+    -path:"https://skat.sharepoint.com/sites/ufst" OR
+     -path:"https://skat.sharepoint.com/sites/adst" OR
+      -path:"https://skat.sharepoint.com/sites/gaeldst" OR
+ -path:"https://skat.sharepoint.com/sites/motorstnyh" OR 
+  -path:"https://skat.sharepoint.com/sites/vurdstnyh" OR
+   -path:"https://skat.sharepoint.com/sites/toldstnyh" OR
+    -path:"https://skat.sharepoint.com/sites/ufstnyh" OR
+     -path:"https://skat.sharepoint.com/sites/adstnyh" OR
+      -path:"https://skat.sharepoint.com/sites/gaeldstnyh" OR
+       -path:"https://skat.sharepoint.com/sites/motorstmed" OR 
+  -path:"https://skat.sharepoint.com/sites/vurdstmed" OR
+   -path:"https://skat.sharepoint.com/sites/toldstmed" OR
+    -path:"https://skat.sharepoint.com/sites/ufstmed" OR
+     -path:"https://skat.sharepoint.com/sites/adstmed" OR
+      -path:"https://skat.sharepoint.com/sites/gaeldstmed" OR
+ 
+ (contentclass:STS_ListItem OR IsDocument:True)  
+ -path:"https://skat.sharepoint.com/sites/sktst/SiteAssets" 
+ -path:"https://skat.sharepoint.com/sites/sktstnyh/SiteAssets"  
+ -path:"https://skat.sharepoint.com/sites/sktstmed/SiteAssets"  
+ -path:"https://skat.sharepoint.com/sites/sktstind/SiteAssets"  
+ -path:"https://skat.sharepoint.com/sites/sktstvaerk/SiteAssets"  
+ -path:"https://skat.sharepoint.com/sites/sktstorg/SiteAssets"  
+ -path:"https://skat.sharepoint.com/sites/skm/SiteAssets"  
+ -path:"https://skat.sharepoint.com/sites/skmnyh/SiteAssets"  
+ -path:"https://skat.sharepoint.com/sites/skmmed/SiteAssets"  
+ -path:"https://skat.sharepoint.com/sites/skmind/SiteAssets"  
+ -path:"https://skat.sharepoint.com/sites/skmhr/SiteAssets" 
+ 
+ -contenttypeid:0x0120*
