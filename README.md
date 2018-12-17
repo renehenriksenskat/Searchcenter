@@ -7,3 +7,5 @@ Filen er den query-streng, som er på styrelsesvertikalen (indsat i result sourc
 GAELDST:
 Gældsstyrelsens filer ligger i https://skat.sharepoint.com/search/gaeldstsrc/SiteAssets/Forms/AllItems.aspx
 
+UFST:
+Udviklings- og Forenklingsstyrelsens filer ligger i https://skat.sharepoint.com/search/ufstsrc/SiteAssets/Forms/AllItems.aspx 
