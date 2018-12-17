@@ -1,0 +1,2 @@
+# Searchcenter
+Søgecenter indstillinger
