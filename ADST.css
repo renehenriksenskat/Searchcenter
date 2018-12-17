@@ -1,0 +1,118 @@
+<style>
+#RibbonContainer-TabRowRight, .o365cs-nav-appTitle {display: none !important}
+.ms-cui-topBar2 {border-top: 8px solid #aac800;  height: 42px !important}
+.o365cs-nav-header16 .o365cs-nav-rightAlign .o365cs-nav-button {border-left:0px !important}
+#s4-ribbonrow {height:20px !important}
+#MenuH {display: none !important}
+#s4-workspace {top:10px}
+#O365_MainLink_NavMenu {border-right: 1px solid #f2f2f2}
+.searchdisclaimer {background-color:white; padding-top:30px;padding-left:30px;padding-right:30px;margin-bottom: 0px !important}
+.navbar {display:none}
+div[webpartid="bec78aa4-358b-4475-9d01-8763f1c3747b"] {}
+.o365cs-nav-tenantLogo {display:none !important}
+.o365buttonLabel {color:#d1c5c3 !important}
+#Result{border-top:1px solid #fff;}
+.searchdisclaimer{border-top:1px solid #CBCBCB;position:relative;top:-1px;z-index:1;}
+/*****************************/
+/**** Responsive design ******/
+/*****************************/
+
+/*iPhone Portrait mode (0 til 667px)*/
+@media all and (max-width: 666px) and (min-width: 0px ) {
+    .themeWrapper {
+        /* background-color:red; */
+    }
+    .col-md-9 .ms-srch-sbLarge>input {
+        width:70%;
+    }
+    .col-md-3 {
+        display: none;
+    }
+    .ms-srchnav-list > .ms-srchnav-item > h2 > .ms-srchnav-link, .ms-srchnav-link-selected {
+        font-size:11px !important;
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+    }
+    .ms-srchnav-item {
+        width:70px;
+        height: 115px;
+        margin-right:-20px;
+    }
+
+    .ms-srchnav-link-selected {
+        padding: 5px 15px 5px 15px !important;
+        width:100px;
+    }
+    .ms-webpart-cell-vertical, .ms-webpart-chrome-vertical, .ms-webpart-zone {
+        display: inline;
+    }
+    .tabrow li, .ms-srchnav-list li .ms-srchnav-link {
+        padding-right:15px;
+        display: block;
+        width:100px;
+    }
+    .tabrow li, .ms-srchnav-list li {
+        top:13px;
+    }
+    :first-child.ms-srchnav-item {
+        margin-left:-40px;
+    }
+    
+    .ms-srch-item {
+        width:97%;
+    }
+    .ms-srch-item-body {
+        display: inline;
+    }
+    .ms-srch-item-path {
+        width:95%;
+    }
+
+    H2.ms-displayInline {
+        display: block;
+    }
+    #Result {
+        padding-top:0px;
+    }
+    .bg-dark {
+        background: #f1f1f1 !important;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+   
+}
+/*iPhone Landscape mode (667 - 800px)*/
+@media all and (min-width: 667px) and (max-width: 1000px) {
+    .themeWrapper {
+    /* background-color:blue; */
+    }
+    .col-md-3 {
+        display: none;
+    }
+    .ms-srchnav-list > .ms-srchnav-item > h2 > .ms-srchnav-link {
+        font-size:13px !important;
+    }
+    .ms-webpart-cell-vertical, .ms-webpart-chrome-vertical {
+        display: inline;
+    }
+    .tabrow li, .ms-srchnav-list li .ms-srchnav-link {
+        padding-right:15px;
+    }
+    #Result {
+        padding-top:0px;
+    }
+    .bg-dark {
+        background: #f1f1f1 !important;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .ms-srchnav-link-selected {
+        padding: 5px 15px 5px 15px !important;
+    }
+    .ms-srchnav-list > .ms-srchnav-item > h2 > .ms-srchnav-link, .ms-srchnav-link-selected {
+        font-size:11px !important;
+    }
+}
+</style>

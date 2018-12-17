@@ -1,0 +1,16 @@
+<style>
+#RibbonContainer-TabRowRight, .o365cs-nav-appTitle {display: none !important}
+.ms-cui-topBar2 {border-top: 8px solid #d1c5c3;  height: 42px !important}
+.o365cs-nav-header16 .o365cs-nav-rightAlign .o365cs-nav-button {border-left:0px !important}
+#s4-ribbonrow {height:20px !important}
+#MenuH {display: none !important}
+#s4-workspace {top:10px}
+#O365_MainLink_NavMenu {border-right: 1px solid #f2f2f2}
+.searchdisclaimer {background-color:white; padding-top:30px;padding-left:30px;padding-right:30px;margin-bottom: 0px !important}
+.navbar {display:none}
+div[webpartid="bec78aa4-358b-4475-9d01-8763f1c3747b"] {}
+.o365cs-nav-tenantLogo {display:none !important}
+.o365buttonLabel {color:#d1c5c3 !important}
+#Result{border-top:1px solid #fff;}
+.searchdisclaimer{border-top:1px solid #CBCBCB;position:relative;top:-1px;z-index:1;}
+</style>
