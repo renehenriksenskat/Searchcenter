@@ -1,4 +1,4 @@
-hr-partne
+hr-partner
  {searchTerms} 
  -path:"https://skat.sharepoint.com/sites/motorst" OR 
   -path:"https://skat.sharepoint.com/sites/vurdst" OR
