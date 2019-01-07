@@ -1,4 +1,27 @@
 <style>
+/****************************/
+/******** Best bet **********/
+/****************************/
+.ms-srch-bestBetItem {
+    background-color: #14143c !important;
+    width: auto;
+    float:left;
+    margin: 0px !important;
+}
+.ms-srch-bestBetItem-icon, .ms-srch-item-path {
+    display:none !important;
+}
+
+.ms-srch-bestBetItem h3 a{
+    color:white !important;
+}
+
+.ms-srch-group:first-child #GroupBorderBottom {
+    border-bottom: 1px dashed #14143c;
+    padding-top: 10px;
+}
+
+/********** ALT ANDET ***************/
 #RibbonContainer-TabRowRight, .o365cs-nav-appTitle {display: none !important}
 .ms-cui-topBar2 {border-top: 8px solid #ffbb16;  height: 42px !important}
 .o365cs-nav-header16 .o365cs-nav-rightAlign .o365cs-nav-button {border-left:0px !important}
