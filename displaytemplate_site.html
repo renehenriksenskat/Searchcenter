@@ -1,0 +1,45 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"> 
+<head>
+<title>SKM_Sitevisning</title>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:TemplateHidden msdt:dt="string">0</mso:TemplateHidden>
+<mso:MasterPageDescription msdt:dt="string">Viser et resultat, der er tilpasset et SharePoint-websted.</mso:MasterPageDescription>
+<mso:ContentTypeId msdt:dt="string">0x0101002039C03B61C64EC4A04F5361F385106603</mso:ContentTypeId>
+<mso:TargetControlType msdt:dt="string">;#SearchResults;#</mso:TargetControlType>
+<mso:HtmlDesignAssociated msdt:dt="string">1</mso:HtmlDesignAssociated>
+<mso:ManagedPropertyMapping msdt:dt="string">'Title':'Title','Path':'Path','SiteLogo':'SiteLogo','SiteDescription':'SiteDescription','CollapsingStatus':'CollapsingStatus','DocId':'DocId','HitHighlightedProperties':'HitHighlightedProperties','FileExtension':'FileExtension','ViewsLifeTime':'ViewsLifeTime','deeplinks':'deeplinks','importance':'importance','FileType':'FileType','RefinableString105':'RefinableString105'</mso:ManagedPropertyMapping>
+<mso:HtmlDesignConversionSucceeded msdt:dt="string">True</mso:HtmlDesignConversionSucceeded>
+<mso:HtmlDesignStatusAndPreview msdt:dt="string">https://skat.sharepoint.com/search/_catalogs/masterpage/Display Templates/Search/Item_SKMSite.html, Konverteringen blev fuldf�rt.</mso:HtmlDesignStatusAndPreview>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+    <div id="Item_Site">
+<!--#_ 
+        if(!$isNull(ctx.CurrentItem) && !$isNull(ctx.ClientControl)){
+            var id = ctx.ClientControl.get_nextUniqueId();
+            var itemId = id + Srch.U.Ids.item;
+            var hoverId = id + Srch.U.Ids.hover;
+            var hoverUrl = "~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Site_HoverPanel.js";
+            var deepLinksClassNoEncode = "ms-srch-item-deepLinks";
+            var webstedstype = ctx.CurrentItem.RefinableString105;
+            if (webstedstype == "Organisation") {webstedstype = "Organisatorisk websted"}
+            if (webstedstype == "Projekt") {webstedstype = "Projektwebsted"}
+			$setResultItem(itemId, ctx.CurrentItem);
+            ctx.currentItem_ShowHoverPanelCallback = Srch.U.getShowHoverPanelCallback(itemId, hoverId, hoverUrl);
+            ctx.currentItem_HideHoverPanelCallback = Srch.U.getHideHoverPanelCallback();
+_#-->
+            <a href="_#=ctx.CurrentItem.Path=#_"><div id="_#= $htmlEncode(itemId) =#_" name="Item" data-displaytemplate="SiteItem" class="SKMSiteResult"  style="width:22%;float:left;clear:none;background-color:#14143c;margin:10px 1% 10px -10px;margin-left:0px;color:white;border:1px solid #14143c;height:80px;padding:5px 20px 5px 10px">
+                
+                <span style="display:block"><b>_#=ctx.CurrentItem.Title=#_</b></span>
+                <span style="display:block">_#= webstedstype =#_</span>
+
+            </div></a>
+<!--#_
+        }
+_#-->
+    </div>
+</body>
+</html>
