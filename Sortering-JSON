@@ -1,1 +1,5 @@
-[{"name":"Relevans","sorts":[]},{"name":"Dato (nyeste)","sorts":[{"p":"RefinableDate01","d":1}]},{"name":"Dato (ældst)","sorts":[{"p":"RefinableDate01","d":0}]}]
+Sortering nyheder + meddelelser
+[{"name":"Relevans","sorts":[]},{"name":"Udgivelsesdato (nyeste)","sorts":[{"p":"RefinableDate01","d":1}]},{"name":"Udgivelsesdato (ældst)","sorts":[{"p":"RefinableDate01","d":0}]}]
+
+Sortering Alt
+[{"name":"Relevans","sorts":[]},{"name":"Ændret (senest)","sorts":[{"p":"LastModifiedTime","d":1}]},{"name":"Ændret (ældst)","sorts":[{"p":"LastModifiedTime","d":0}]}]
