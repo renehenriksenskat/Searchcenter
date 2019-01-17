@@ -1,0 +1,7 @@
+{searchboxquery}* contentclass:STS_Site 
+
+(Path:"https://skat.sharepoint.com/sites/PROJ_*" OR 
+Path:"https://skat.sharepoint.com/sites/ORG_*" OR )
+
+-path="https://skat.sharepoint.com/sites/projekter"
+

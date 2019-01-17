@@ -34,10 +34,13 @@
 div[webpartid="bec78aa4-358b-4475-9d01-8763f1c3747b"] {}
 .o365cs-nav-tenantLogo {display:none !important}
 .o365buttonLabel {color:#d1c5c3 !important}
+.searchdisclaimer{border-top:1px solid #CBCBCB;position:relative;top:-1px;z-index:1;}
+
+/**** Ændring efter tilføjelse af Teamwork, sortering m.v. ****/
 #Result{border-top:1px solid #fff;padding-top:20px !important}
 #ResultHeader{margin-top:0px !important;margin-right:0px;margin-bottom:0px;padding-left:10px}
 #ResultHeader::before{content:"Sorter resultater efter"}
-.searchdisclaimer{border-top:1px solid #CBCBCB;position:relative;top:-1px;z-index:1;}
+
 
 
 
